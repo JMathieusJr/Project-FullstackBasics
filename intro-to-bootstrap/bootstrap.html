@@ -12,16 +12,47 @@
     <link rel="stylesheet" href="bootstrap.html">
 </head>
 <body>
-<main class="container-fluid">
+<!--nav bar-->
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+<!--content-->
+<main class="container-fluid py-5">
     <div class="row">
-        <div class="col-3">
+        <div class="col-4">
             <p>
                 Could someone survive inside a transporter buffer for 75 years? Wouldn't that bring about chaos? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. For an android with no feelings, he sure managed to evoke them in others.
             </p>
         </div>
-            <div class="col-9">
+            <div class="col-4">
+                <p>
                 Is it my imagination, or have tempers become a little frayed on the ship lately? When has justice ever been as simple as a rule book? Yes, absolutely, I do indeed concur, wholeheartedly! The look in your eyes, I recognize it. You used to have it for me.
+                </p>
             </div>
+        <div class="col-4">
+            <p>
+                Is it my imagination, or have tempers become a little frayed on the ship lately? When has justice ever been as simple as a rule book? Yes, absolutely, I do indeed concur, wholeheartedly! The look in your eyes, I recognize it. You used to have it for me.
+            </p>
+        </div>
+
     </div>
 </main>
 
@@ -32,6 +63,9 @@
 <!-- container, container-fluid/ spans full width of screen use for color,  -->
 <!-- rows up to 12 columns (rows must be placed inside of containers!!!!!!!!!!!)-->
 <!-- start building mobile then scale up -->
+<!-- bootstrap is has built in flexbox -->
+<!-- you can add padding and margin in the rows -->
+<!-- create an easy to understand nav bar for the user -->
 <!--  -->
 
 
